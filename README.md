@@ -7,10 +7,10 @@ To activate the venv, I used 'source/venv/bin/activate'. For windows, the comman
 I created a .gitignore file to exclude unnecessary files like the virtual environment and Python cache from Git. 'touch .gitignore'
 
 Added these to the gitignore file: 
-venv/
-__pycache__/
-.DS_Store
-*.pyc
+            venv/
+            __ pycache __/
+            .DS_Store
+            *.pyc
 
 Install all the required libraries. For this project I installed Pandas, Numpy, Matplotlib, Seaborn and Scikit-learn.
 
